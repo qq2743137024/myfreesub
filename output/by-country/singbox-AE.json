@@ -6,47 +6,45 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
-      "server": "128.241.25.72",
-      "server_port": 30021,
-      "uuid": "65f26a08-9a5e-4b28-9004-f98676cc1e49",
+      "server": "31.56.189.27",
+      "server_port": 2087,
+      "uuid": "df9f5aca-eda0-428f-a752-e53866153d12",
       "tls": {
         "enabled": true,
-        "server_name": "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev",
+        "server_name": "srv-21bac9.vless.monster",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
-        }
+        "type": "grpc",
+        "service_name": "freegrpc"
       }
     },
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-      "server": "novantunnel.tech",
-      "server_port": 443,
-      "uuid": "ee556a4f-d9f6-44de-af02-42c51659416a",
+      "server": "89.47.55.8",
+      "server_port": 8443,
+      "uuid": "4350213a-b4e7-262a-0bd7-bd16957cf71a",
       "tls": {
         "enabled": true,
-        "server_name": "novantunnel.tech",
-        "insecure": false,
+        "server_name": "download.nvidia.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "WtLZK1KyhSpI3K-R4M3sLAHWPOgGPMgkL6RneL0OfCY",
+          "short_id": ""
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/Novan-AE9",
-        "headers": {
-          "Host": "novantunnel.tech"
-        }
+        "type": "grpc",
+        "service_name": "TunService"
       }
     },
     {
@@ -68,47 +66,87 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-      "server": "31.56.189.27",
-      "server_port": 2087,
-      "uuid": "df9f5aca-eda0-428f-a752-e53866153d12",
+      "server": "116.204.164.60",
+      "server_port": 7443,
+      "uuid": "fc85cf23-75e6-4b91-b468-8adc9407047b",
       "tls": {
         "enabled": true,
-        "server_name": "srv-21bac9.vless.monster",
+        "server_name": "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
-        "type": "grpc",
-        "service_name": "freegrpc"
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev"
+        }
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-      "server": "85.204.107.172",
+      "server": "85.204.107.171",
       "server_port": 8080,
       "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
       "tls": {
         "enabled": true,
         "server_name": "hopp-romania-new.roxa.org",
-        "insecure": true
+        "insecure": false
       }
     },
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
+      "server": "84.235.244.108",
+      "server_port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
+      "server": "203.137.165.164",
+      "server_port": 57554,
+      "uuid": "9c7501fb-4e23-44d8-9a9e-973807ae4f35",
+      "tls": {
+        "enabled": true,
+        "server_name": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
       "server": "89.47.55.8",
       "server_port": 8443,
-      "uuid": "4350213a-b4e7-262a-0bd7-bd16957cf71a",
+      "uuid": "dca76b88-b038-e82b-45e1-1d76b476d7ca",
       "tls": {
         "enabled": true,
         "server_name": "www.canon.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -122,20 +160,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
-      "server": "84.235.244.108",
-      "server_port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -146,7 +170,8 @@
         "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 07 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 08 - xiaohe"
       ]
     },
     {
@@ -159,7 +184,8 @@
         "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 07 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 08 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
