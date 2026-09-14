@@ -6,30 +6,46 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "server": "104.21.47.191",
+      "server_port": 443,
+      "uuid": "a90c264d-3853-4eef-9a3d-628b2d02d15e",
+      "tls": {
+        "enabled": true,
+        "server_name": "9-M19.NorTH-Korea-flOw.kDnS.Fr",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/CjBjB9sn5pCvaSwScc",
         "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+          "Host": "9-m19.norTH-Korea-fLow.KDns.Fr"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "server": "104.21.32.105",
+      "server_port": 443,
+      "uuid": "7e26fd8f-d75a-473d-84ba-9f4e3f47d086",
+      "tls": {
+        "enabled": true,
+        "server_name": "2-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560",
+        "path": "/8qMLgNapWf6SBxo8fhQlVPYO",
         "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+          "Host": "2-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr"
         }
       }
     },
