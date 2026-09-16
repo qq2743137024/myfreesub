@@ -5,29 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  server: 31.58.181.88
-  port: 8443
+  server: 172.67.67.178
+  port: 443
   udp: true
   type: vless
-  uuid: 94f1b60a-7786-4ab4-a1f6-eb5591c3d645
-  flow: xtls-rprx-vision
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   tls: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  server: 31.56.189.27
-  port: 2087
-  udp: true
-  type: vless
-  uuid: df9f5aca-eda0-428f-a752-e53866153d12
-  tls: true
-  servername: srv-21bac9.vless.monster
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
   skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: freegrpc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rAyAn-007.nAsTaRaN.DpDnS.OrG
+- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
+  server: 172.67.221.230
+  port: 443
+  udp: true
+  type: vless
+  uuid: ee556a4f-d9f6-44de-af02-42c51659416a
+  tls: true
+  servername: novantunnel.tech
+  skip-cert-verify: false
+  client-fingerprint: randomized
+  network: ws
+  ws-opts:
+    path: /Novan-AE9
+    headers:
+      Host: novantunnel.tech
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   server: 130.49.161.70
   port: 443
@@ -39,33 +45,32 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
-  server: 45.130.125.201
-  port: 80
+  server: 31.58.181.88
+  port: 8443
   udp: true
   type: vless
-  uuid: dc8a9493-c54a-459e-d060-81a700000001
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-core.netizo09.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
-  server: 129.151.64.169
-  port: 31867
-  udp: true
-  type: vless
-  uuid: bd01efed-f999-41a5-bbb1-3d2357647f11
+  uuid: a85d3eb0-c71e-4086-8139-6ac7c9120389
+  flow: xtls-rprx-vision
   tls: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  server: 31.56.189.27
+  port: 2087
+  udp: true
+  type: vless
+  uuid: df9f5aca-eda0-428f-a752-e53866153d12
+  tls: true
+  servername: srv-21bac9.vless.monster
   skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: freegrpc
 - name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
-  server: 85.204.107.171
+  server: 85.204.107.178
   port: 8080
   udp: true
   type: hysteria2
