@@ -12,12 +12,16 @@
       "password": "8ad9d72a5571df86"
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "/QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA="
+      "server": "91.240.86.70",
+      "server_port": 22443,
+      "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy.quattro-tech.ru",
+        "insecure": true
+      }
     },
     {
       "type": "hysteria2",
