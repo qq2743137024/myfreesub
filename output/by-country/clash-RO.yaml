@@ -20,7 +20,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: QFWzCw2uX9B9i6qAYeFBIE
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - xiaohe
-  server: 85.204.107.173
+  server: 85.204.107.174
   port: 8443
   udp: true
   type: hysteria2
@@ -33,7 +33,7 @@ proxies:
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: www.bing.com
+  sni: t.me
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
   server: 162.249.125.133
