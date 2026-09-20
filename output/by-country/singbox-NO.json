@@ -25,28 +25,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇳🇴 挪威 (Norway) 02 - xiaohe",
-      "server": "46.29.238.88",
-      "server_port": 40443,
-      "uuid": "db320947-adfb-400d-b60b-383b8324bffe",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc",
-          "short_id": "f7b2"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇳🇴 挪威 (Norway) 03 - xiaohe",
+      "tag": "🇳🇴 挪威 (Norway) 02 - xiaohe",
       "server": "46.8.210.129",
       "server_port": 22443,
       "password": "2a3b101d-d8f9-40e7-9373-b0ef487c0035",
@@ -62,8 +42,7 @@
       "outbounds": [
         "auto",
         "🇳🇴 挪威 (Norway) 01 - xiaohe",
-        "🇳🇴 挪威 (Norway) 02 - xiaohe",
-        "🇳🇴 挪威 (Norway) 03 - xiaohe"
+        "🇳🇴 挪威 (Norway) 02 - xiaohe"
       ]
     },
     {
@@ -71,8 +50,7 @@
       "tag": "auto",
       "outbounds": [
         "🇳🇴 挪威 (Norway) 01 - xiaohe",
-        "🇳🇴 挪威 (Norway) 02 - xiaohe",
-        "🇳🇴 挪威 (Norway) 03 - xiaohe"
+        "🇳🇴 挪威 (Norway) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
