@@ -9,7 +9,7 @@ proxies:
   port: 8443
   udp: true
   type: vless
-  uuid: ceaf462e-a9fa-4c4b-94be-f192570465a7
+  uuid: 863ce48d-6b5e-4682-b5d7-0c9b43895841
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -27,7 +27,7 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  server: 85.204.107.181
+  server: 85.204.107.176
   port: 8080
   udp: true
   type: hysteria2
