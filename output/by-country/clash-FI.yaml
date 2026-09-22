@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  server: 87.58.148.70
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: rg0g3xp9rk9nk9o0
-- name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
   server: 95.217.24.119
   port: 2087
   udp: true
@@ -24,7 +17,7 @@ proxies:
     short-id: e9fae729e40ae07e
   servername: 62.238.103.54
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
+- name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
   server: 152.233.54.104
   port: 443
   udp: true
@@ -39,6 +32,19 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
+- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
+  server: 31.76.80.230
+  port: 8443
+  udp: true
+  type: vless
+  uuid: d544c858-b1ba-45b2-8868-8197daf2a6ee
+  tls: true
+  servername: fin.luxes.network
+  skip-cert-verify: false
+  client-fingerprint: safari
+  network: ws
+  ws-opts:
+    path: /assets
 proxy-groups:
 - name: PROXIES
   type: select
