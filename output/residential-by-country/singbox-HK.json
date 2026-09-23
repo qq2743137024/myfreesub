@@ -12,7 +12,8 @@
       "security": "auto",
       "alter_id": 2,
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/"
       }
     },
     {
@@ -28,7 +29,11 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn"
+        }
       }
     },
     {
