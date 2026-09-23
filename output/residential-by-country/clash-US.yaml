@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 104.21.8.63
+- name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  server: 141.101.120.231
   port: 443
   udp: true
   type: vless
-  uuid: b19419fa-8009-455b-b059-765e2856883a
+  uuid: 3bb6fd82-3a15-eaea-6168-4dac2b70079e
   tls: true
-  servername: akbarian34.j9z65ce2uyks.workers.dev
+  servername: nahan-fog-af01.dfghttr2012.workers.dev
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /vl/Q5xRgb8wfW3RTYFIfDA16PzboJrjLuZ9?ed=2560
+    path: /sync
     headers:
-      Host: akbarian34.j9z65ce2uyks.workers.dev
+      Host: nahan-fog-af01.dfghttr2012.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 捷克 (Czech) 01 - xiaohe
+  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 捷克 (Czech) 01 - xiaohe
+  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES

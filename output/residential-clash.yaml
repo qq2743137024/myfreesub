@@ -4,21 +4,33 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
-  server: 38.47.96.220
-  port: 11424
+- name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  server: 141.101.120.231
+  port: 443
   udp: true
   type: vless
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  uuid: 3bb6fd82-3a15-eaea-6168-4dac2b70079e
   tls: true
-  servername: notls.lukongtou.eu.org
+  servername: nahan-fog-af01.dfghttr2012.workers.dev
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: Telegram-WangCai2🇨🇳
+    path: /sync
     headers:
-      Host: notls.lukongtou.eu.org
+      Host: nahan-fog-af01.dfghttr2012.workers.dev
 - name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  server: hkgb707.ifastcdncache.com
+  port: 60852
+  udp: true
+  type: vmess
+  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
   server: dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn
   port: 443
   udp: true
@@ -37,14 +49,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
