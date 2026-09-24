@@ -5,20 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 188.114.97.8
-  port: 8443
+  server: 153.76.185.148
+  port: 3090
   udp: true
   type: vless
-  uuid: 9c63fd59-f9ee-446e-97ec-0bf2de21ed7b
-  tls: true
-  servername: dRy-GLITTer-ef10.gFRYubCdrYujVRtH.WorkErS.DEV
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiVVhGU1pOZ1oxaTFUUldyVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: dry-glitter-ef10.gfryubcdryujvrth.workers.dev
+  uuid: 1552d599-a036-4389-a5c0-bf14dfaddc1a
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
 proxy-groups:
 - name: PROXIES
   type: select

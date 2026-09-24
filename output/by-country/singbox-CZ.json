@@ -6,24 +6,12 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "188.114.97.8",
-      "server_port": 8443,
-      "uuid": "9c63fd59-f9ee-446e-97ec-0bf2de21ed7b",
-      "tls": {
-        "enabled": true,
-        "server_name": "dRy-GLITTer-ef10.gFRYubCdrYujVRtH.WorkErS.DEV",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "server": "153.76.185.148",
+      "server_port": 3090,
+      "uuid": "1552d599-a036-4389-a5c0-bf14dfaddc1a",
       "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiVVhGU1pOZ1oxaTFUUldyVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
-        "headers": {
-          "Host": "dry-glitter-ef10.gfryubcdryujvrth.workers.dev"
-        }
+        "type": "grpc",
+        "service_name": "vless"
       }
     },
     {

@@ -4,20 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-      "server": "45.144.52.23",
-      "server_port": 443,
-      "uuid": "cc67ca7f-064e-4117-ac31-a66d5728a11c",
-      "tls": {
-        "enabled": true,
-        "server_name": "fl-3-direct.djarbnet.ru",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/getupdates"
-      }
+      "server": "36.224.141.124",
+      "server_port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
     },
     {
       "type": "vless",
