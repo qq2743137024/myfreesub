@@ -4,28 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  server: 151.101.56.255
-  port: 443
+- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  server: 162.249.126.13
+  port: 8081
   udp: true
-  type: trojan
-  password: MiTiVPN
-  sni: ssl.fastly.com
+  type: hysteria2
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  sni: hop-germany-september.dynuddns.com
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
 rules:
 - MATCH,PROXIES
