@@ -5,20 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 66.81.247.155
-  port: 2083
+  server: 153.76.185.187
+  port: 3090
   udp: true
   type: vless
-  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
-  tls: true
-  servername: testmikonim.hydrymhmdamyn7.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /OAZko425kNFF0PpQ
-    headers:
-      Host: testmikonim.hydrymhmdamyn7.workers.dev
+  uuid: 7b219b61-9cc6-49ca-bf2d-5d5ec7960256
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
 proxy-groups:
 - name: PROXIES
   type: select
