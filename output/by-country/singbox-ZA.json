@@ -20,16 +20,8 @@
       "password": "aduB9HGxQHjA2SBMRjkHX6"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇿🇦 南非 (South Africa) 03 - xiaohe",
-      "server": "102.133.165.160",
-      "server_port": 16233,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
-    },
-    {
       "type": "vless",
-      "tag": "🇿🇦 南非 (South Africa) 04 - xiaohe",
+      "tag": "🇿🇦 南非 (South Africa) 03 - xiaohe",
       "server": "platform101.golnamakcert.top",
       "server_port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -40,6 +32,14 @@
           "Host": "platform101.halalkhor.info"
         }
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇿🇦 南非 (South Africa) 04 - xiaohe",
+      "server": "102.133.165.160",
+      "server_port": 16233,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
     },
     {
       "type": "selector",
