@@ -4,31 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe
-  server: 89.218.15.90
-  port: 10002
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+  server: cf.877774.xyz
+  port: 443
   udp: true
   type: vless
-  uuid: 392fcc7e-b995-11f1-a6b7-1b2272a86bd5
+  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
   tls: true
-  servername: kz1.vpnjantit.com
+  servername: yf.962456.xyz
   skip-cert-verify: false
+  client-fingerprint: random
   network: ws
   ws-opts:
-    path: /vpnjantit
+    path: /proxyip=kr.william.us.ci
     headers:
-      Host: kz1.vpnjantit.com
+      Host: yf.962456.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
