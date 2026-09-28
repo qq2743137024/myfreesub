@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  server: 104.18.32.87
+  server: 188.114.97.6
   port: 443
   udp: true
   type: trojan
@@ -14,7 +14,7 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /trojan#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /trojan
 proxy-groups:
 - name: PROXIES
   type: select
