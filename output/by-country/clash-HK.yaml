@@ -5,13 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
+  server: 212.192.12.11
+  port: 8388
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: WqE61ZpAXu2fU3zN
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
   server: sth.free-outline.giize.com
   port: 1081
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: fv5k24ox05vzkwt3
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   server: hk-1.gsafevpnapi.com
   port: 20270
   udp: true
@@ -24,15 +31,15 @@ proxies:
     short-id: d5b538acf8a93540
   servername: www.yahoo.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.89
+  sni: https://t.me/clashv8🇨🇳
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   server: 202.146.222.174
   port: 443
   udp: true
@@ -40,21 +47,13 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: https%3a%2f%2ft.me%2fwangcai2
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
-  server: f902df58-tmeqo0-u4zl7f-1jk6u.hk3.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-  sni: f902df58-tmeqo0-u4zl7f-1jk6u.hk3.hyhuawei.com
-  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
-  server: 202.146.222.29
-  port: 443
+  server: ru1.xiaoliyu.cyou
+  port: 18333
   udp: true
   type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vk.com
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  sni: ru1.xiaoliyu.cyou
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
   server: hk2.xiaoliyu.cyou
@@ -65,20 +64,20 @@ proxies:
   sni: hk2.xiaoliyu.cyou
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
-  server: zfd-hkv2.kunlun01dns.com
-  port: 16116
-  udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
   server: mz.hkychina.com
   port: 8443
   udp: true
   type: hysteria2
   password: HysTeria2026!Proxy
   sni: mz.hkychina.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2�
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
