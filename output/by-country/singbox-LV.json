@@ -7,17 +7,17 @@
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
       "server": "185.135.86.175",
-      "server_port": 9033,
+      "server_port": 9017,
       "method": "aes-256-cfb",
-      "password": "UTJA57ypk2XKQpnm"
+      "password": "HAVAdE3nXhqA5nHp"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe",
       "server": "185.135.86.175",
-      "server_port": 9017,
+      "server_port": 9033,
       "method": "aes-256-cfb",
-      "password": "HAVAdE3nXhqA5nHp"
+      "password": "UTJA57ypk2XKQpnm"
     },
     {
       "type": "shadowsocks",
@@ -49,20 +49,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe",
-      "server": "212.192.14.212",
-      "server_port": 8113,
-      "password": "ODM2MzExOTcyMCwxNzkwNTMyNzE0ksak7YOGMD",
-      "tls": {
-        "enabled": true,
-        "server_name": "lat1.lumenvpn.tech",
-        "insecure": false
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe",
+      "tag": "🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe",
       "server": "31.57.28.147",
       "server_port": 443,
       "uuid": "2412bd96-925b-43f2-81d1-0ed4f0793699",
@@ -90,8 +78,7 @@
         "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe",
         "🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe",
         "🇱🇻 拉脱维亚 (Latvia) 04 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe"
+        "🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe"
       ]
     },
     {
@@ -102,8 +89,7 @@
         "🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe",
         "🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe",
         "🇱🇻 拉脱维亚 (Latvia) 04 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe",
-        "🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe"
+        "🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
