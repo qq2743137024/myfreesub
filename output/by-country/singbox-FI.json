@@ -11,18 +11,63 @@
       "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1"
     },
     {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - xiaohe",
+      "server": "95.216.27.15",
+      "server_port": 2053,
+      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
+          "short_id": "d368b94e275ab080"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
+      "server": "server.slavkiti.monster",
+      "server_port": 443,
+      "uuid": "fad0b9a6-187d-4fcc-96fc-498bc5b3135a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.foxsports.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk",
+          "short_id": "8325360e8bd2"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 芬兰 (Finland) 01 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 01 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 02 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 03 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 芬兰 (Finland) 01 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 01 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 02 - xiaohe",
+        "🇫🇮 芬兰 (Finland) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
