@@ -13,12 +13,19 @@ proxies:
   password: PRBf4BS2HvJqtWxY
 - name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
   server: 213.183.63.60
-  port: 9054
+  port: 9085
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: VcFuyXvND2yQWSFY
+  password: 9ej82EKe2gq7gLAM
 - name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
+  server: 213.183.63.60
+  port: 9066
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 2KUaE2a8NWTvuCZ3
+- name: 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
   server: 193.148.59.178
   port: 443
   udp: true
@@ -31,13 +38,6 @@ proxies:
     short-id: e3daad69
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
-  server: 213.183.63.60
-  port: 9066
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 2KUaE2a8NWTvuCZ3
 proxy-groups:
 - name: PROXIES
   type: select
