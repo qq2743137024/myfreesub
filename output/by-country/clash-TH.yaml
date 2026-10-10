@@ -13,7 +13,7 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
-  server: dghk2610.supertoolify.com
+  server: 154.21.203.106
   port: 21033
   udp: true
   type: vless
@@ -24,7 +24,7 @@ proxies:
     public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
     short-id: cbd39bea0805e2
   servername: www.kaidee.com
-  client-fingerprint: ios
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
