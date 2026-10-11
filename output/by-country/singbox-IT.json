@@ -4,27 +4,27 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇮🇹 意大利 (Italy) 01 - xiaohe",
-      "server": "57.131.48.45",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "itzvpn@321"
-    },
-    {
       "type": "vless",
-      "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe",
+      "tag": "🇮🇹 意大利 (Italy) 01 - xiaohe",
       "server": "204.216.216.23",
       "server_port": 10086,
       "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇮🇹 意大利 (Italy) 03 - xiaohe",
+      "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe",
       "server": "185.164.175.81",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹 意大利 (Italy) 03 - xiaohe",
+      "server": "57.131.48.45",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
     },
     {
       "type": "vless",
@@ -68,33 +68,12 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇮🇹 意大利 (Italy) 06 - xiaohe",
-      "server": "itak.ali-bard.online",
-      "server_port": 443,
-      "uuid": "12e95f93-443c-45f0-9a2a-5b318b9124cf",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "itak.ali-bard.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I",
-          "short_id": ""
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇮🇹 意大利 (Italy) 07 - xiaohe",
+      "tag": "🇮🇹 意大利 (Italy) 06 - xiaohe",
       "server": "91.201.65.122",
-      "server_port": 9074,
+      "server_port": 9053,
       "method": "aes-256-cfb",
-      "password": "p5wSkb2uM3pKSS3j"
+      "password": "SBM7R883jBmnqe6C"
     },
     {
       "type": "selector",
@@ -106,8 +85,7 @@
         "🇮🇹 意大利 (Italy) 03 - xiaohe",
         "🇮🇹 意大利 (Italy) 04 - xiaohe",
         "🇮🇹 意大利 (Italy) 05 - xiaohe",
-        "🇮🇹 意大利 (Italy) 06 - xiaohe",
-        "🇮🇹 意大利 (Italy) 07 - xiaohe"
+        "🇮🇹 意大利 (Italy) 06 - xiaohe"
       ]
     },
     {
@@ -119,8 +97,7 @@
         "🇮🇹 意大利 (Italy) 03 - xiaohe",
         "🇮🇹 意大利 (Italy) 04 - xiaohe",
         "🇮🇹 意大利 (Italy) 05 - xiaohe",
-        "🇮🇹 意大利 (Italy) 06 - xiaohe",
-        "🇮🇹 意大利 (Italy) 07 - xiaohe"
+        "🇮🇹 意大利 (Italy) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
