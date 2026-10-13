@@ -4,24 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
-      "server": "cape.flowzari.info",
-      "server_port": 443,
-      "uuid": "6c21cf57-a9a9-4075-ad9f-631152bd911e",
-      "flow": "xtls-rprx-vision",
+      "server": "sweedenqfds777.qcloud.surf",
+      "server_port": 21223,
+      "password": "408c51e8-9246-483d-ba73-34ab4e202eb9",
       "tls": {
         "enabled": true,
-        "server_name": "cape.flowzari.info",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "5DdSLIpnYjqYTI4-yC-ulr8PGMA8YML_EWdKvOjdinc",
-          "short_id": "693e339ad3613446"
-        }
+        "server_name": "sweedenqfds777.qcloud.surf",
+        "insecure": false
       }
     },
     {
