@@ -4,28 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - xiaohe
-  server: 39.108.113.127
-  port: 10086
+- name: 🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe
+  server: 178.172.227.124
+  port: 14430
   udp: true
-  type: vmess
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
   network: ws
   ws-opts:
-    path: /
+    path: /vless
+    headers:
+      Host: 178.172.227.124
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - xiaohe
+  - 🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - xiaohe
+  - 🇧🇾 白俄罗斯 (Belarus) 01 - xiaohe
 rules:
 - MATCH,PROXIES
