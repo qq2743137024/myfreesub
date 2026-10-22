@@ -28,18 +28,6 @@ proxies:
   servername: www.apple.com
   client-fingerprint: random
 - name: 🇮🇳 印度 (India) 03 - xiaohe
-  server: 165.99.222.161
-  port: 443
-  udp: true
-  type: vless
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SC6AnZ_BlvDruiGFpDRno9b1V3wMmq9gjB-KEHHUlE4
-  servername: in1.vkusnews.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 04 - xiaohe
   server: in.smrtai.top
   port: 443
   udp: true
@@ -51,7 +39,26 @@ proxies:
     short-id: 6bdc8320
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇮🇳 印度 (India) 04 - xiaohe
+  server: 165.99.222.161
+  port: 443
+  udp: true
+  type: vless
+  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SC6AnZ_BlvDruiGFpDRno9b1V3wMmq9gjB-KEHHUlE4
+  servername: in1.vkusnews.com
+  client-fingerprint: safari
 - name: 🇮🇳 印度 (India) 05 - xiaohe
+  server: 139.84.166.47
+  port: 8388
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: GEdoeeqLZtkJRgSa
+- name: 🇮🇳 印度 (India) 06 - xiaohe
   server: 152.67.8.205
   port: 80
   udp: true
@@ -72,6 +79,7 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - xiaohe
   - 🇮🇳 印度 (India) 04 - xiaohe
   - 🇮🇳 印度 (India) 05 - xiaohe
+  - 🇮🇳 印度 (India) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -82,5 +90,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - xiaohe
   - 🇮🇳 印度 (India) 04 - xiaohe
   - 🇮🇳 印度 (India) 05 - xiaohe
+  - 🇮🇳 印度 (India) 06 - xiaohe
 rules:
 - MATCH,PROXIES
