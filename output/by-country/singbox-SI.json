@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 01 - xiaohe",
-      "server": "212.227.235.66",
-      "server_port": 2053,
-      "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
+      "tag": "🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe",
+      "server": "92.42.201.102",
+      "server_port": 443,
+      "uuid": "d0c8aa8d-a535-432a-b521-21f0e561f643",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "node-slo01.rkitman.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk",
-          "short_id": "29e8dcd2b37aaa7f"
+          "public_key": "8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU",
+          "short_id": "88d9dc52ef39c8bd"
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇸 西班牙 (Spain) 01 - xiaohe"
+        "🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇸 西班牙 (Spain) 01 - xiaohe"
+        "🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
