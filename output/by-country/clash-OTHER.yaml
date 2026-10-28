@@ -4,31 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇷 IR 01 - xiaohe
-  server: 95.38.235.49
-  port: 8443
+- name: 🌐 其他地区 (Other) 01 - xiaohe
+  server: 104.21.103.254
+  port: 443
   udp: true
-  type: vless
-  uuid: 162b16b2-e032-475d-8460-a400e3d5fa6f
-  tls: true
-  servername: me.anten2.com
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: gr.anten2.com
+    path: /assignment
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇷 IR 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇷 IR 01 - xiaohe
+  - 🌐 其他地区 (Other) 01 - xiaohe
 rules:
 - MATCH,PROXIES
