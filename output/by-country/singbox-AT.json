@@ -12,39 +12,18 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "vless",
-      "tag": "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-      "server": "91.199.147.41",
-      "server_port": 443,
-      "uuid": "4d945644-69ab-47e0-98b3-d43a6313135d",
-      "tls": {
-        "enabled": true,
-        "server_name": "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/SaXqikbSPA3ImtmZKAFin?ed=2560fp=chrome",
-        "headers": {
-          "Host": "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇹 奥地利 (Austria) 01 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 02 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 奥地利 (Austria) 01 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 02 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
