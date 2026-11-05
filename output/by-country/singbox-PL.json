@@ -18,26 +18,6 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe",
-      "server": "84.23.52.120",
-      "server_port": 28450,
-      "uuid": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl.sparxiecn.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lovelive"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe",
       "server": "tfhx4tjzmy39benjh0hg.sellerape.cc",
       "server_port": 443,
       "uuid": "03929684-0dcf-4add-bb02-2b2ba09d10a2",
@@ -54,6 +34,26 @@
           "public_key": "Kamryj_IUYECmozGabqUqauA0k0QpVUEPSBSEKi-ED0",
           "short_id": ""
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe",
+      "server": "84.23.52.120",
+      "server_port": 28450,
+      "uuid": "4d8132cb-f4e3-428c-91ff-2b4f7a868551",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.sparxiecn.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/lovelive"
       }
     },
     {
