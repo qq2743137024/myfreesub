@@ -5,17 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇷 IR 01 - xiaohe
-  server: 198.16.113.219
-  port: 8443
+  server: ser5.plasmoon.ir
+  port: 2050
   udp: true
   type: vless
-  uuid: e3e0e1c3-599e-4ae1-8ad4-d9e90effacc4
-  flow: xtls-rprx-vision
+  uuid: 5c0814cb-09aa-452f-87a9-49000394b459
   tls: true
-  reality-opts:
-    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
-    short-id: 69984b9e02545831
-  servername: www.apple.com
+  servername: tun2.plasmoon.ir
+  skip-cert-verify: false
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
