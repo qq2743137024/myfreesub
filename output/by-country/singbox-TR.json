@@ -14,7 +14,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -62,17 +62,13 @@
     {
       "type": "trojan",
       "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
-      "server": "157.254.38.210",
+      "server": "sclass-b1.catcat321.com",
       "server_port": 20028,
       "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
         "enabled": true,
         "server_name": "hk.catxstar.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": false
       }
     },
     {
