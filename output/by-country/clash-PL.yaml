@@ -5,6 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - xiaohe
+  server: 82.40.63.138
+  port: 443
+  udp: true
+  type: hysteria2
+  password: ca60984f-b1f0-4073-bd33-4c75168f749a
+  sni: kraw-pl-4.fantoff.online
+  skip-cert-verify: true
+- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
   server: 45.194.66.177
   port: 443
   udp: true
@@ -15,14 +23,6 @@ proxies:
   servername: 31tawwo0.virtual-network.lol
   skip-cert-verify: false
   client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 02 - xiaohe
-  server: 82.40.63.138
-  port: 443
-  udp: true
-  type: hysteria2
-  password: ca60984f-b1f0-4073-bd33-4c75168f749a
-  sni: kraw-pl-4.fantoff.online
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
