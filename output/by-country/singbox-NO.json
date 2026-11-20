@@ -1,0 +1,43 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇴 挪威 (Norway) 01 - xiaohe",
+      "server": "168.113.254.247",
+      "server_port": 443,
+      "password": "b006650f-8771-0001-b7fa-e18fc6e80ef1",
+      "tls": {
+        "enabled": true,
+        "server_name": "vcerx-ru-67sb.my-fade.cloud",
+        "insecure": true
+      }
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇳🇴 挪威 (Norway) 01 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇳🇴 挪威 (Norway) 01 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
