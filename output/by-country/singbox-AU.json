@@ -4,15 +4,19 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
-      "server": "149.33.27.162",
-      "server_port": 443,
-      "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "type": "hysteria2",
+      "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
+      "server": "159.13.55.48",
+      "server_port": 20000,
+      "password": "b42d90fa667942aebc734d60",
       "tls": {
         "enabled": true,
-        "server_name": "i1tr.mateflora.com",
-        "insecure": true
+        "server_name": "hy2-au2.whuiy.xyz",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "b42d90fa667942aebc734d60"
       }
     },
     {
@@ -20,14 +24,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
